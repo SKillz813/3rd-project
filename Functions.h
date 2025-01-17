@@ -1,3 +1,4 @@
+// Αποφυγή πολλαπλής συμπερίληψης του αρχείου functions.h
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
