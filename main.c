@@ -1,10 +1,10 @@
 #include "Functions.h"
 
 int main() {
-    Product catalog[MAX_PRODUCTS];
-    int server_socket, client_socket;
-    struct sockaddr_in server_addr, client_addr;
-    socklen_t client_len = sizeof(client_addr);
+    Product catalog[MAX_PRODUCTS];  // Πίνακας που αποθηκεύει τα προϊόντα του καταστήματος
+    int server_socket, client_socket; // Για τη σύνδεση του server και του client
+    struct sockaddr_in server_addr, client_addr; // Για τη διεύθυνση του server και του client
+    socklen_t client_len = sizeof(client_addr);  // Μεταβλητή για το μέγεθος της διεύθυνσης του client
 
     // Αρχικοποίηση του καταλόγου προϊόντων
     initialize_catalog(catalog);
