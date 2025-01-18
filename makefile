@@ -1,9 +1,7 @@
-all: main
 # Δημιουργεί το εκτελέσιμο πρόγραμμα "main".
-
+all: main
 
 # Το αρχείο Functions.h περιλαμβάνεται για τις δηλώσεις συναρτήσεων.
-
 main: main.o initialize_catalog.o handle_client.o process_order.o generate_report.o
 	# Συνδέει όλα τα αντικείμενα (.o) σε ένα εκτελέσιμο αρχείο "main".
 	# Χρησιμοποιείται η βιβλιοθήκη pthread (-lpthread) για τα threads.
