@@ -7,7 +7,7 @@ int main() {
     socklen_t client_len = sizeof(client_addr);  // Μέγεθος της διεύθυνσης του client
 
     // Αρχικοποίηση του καταλόγου προϊόντων
-    initialize_catalog(catalog);
+    initialize_catalog(catalog); 
 
     // Δημιουργία socket για τον server
     server_socket = socket(AF_INET, SOCK_STREAM, 0);
